@@ -76,7 +76,7 @@ El título de la página ```(<title>)```, que se muestra en la pestaña del nave
 El ícono o favicon, que es la pequeña imagen que aparece junto al título.
 
 Y los enlaces a otros archivos, como hojas de estilo CSS o scripts de JavaScript.
-Los elementos de bloque son estructuras grandes que ocupan todo el ancho disponible y se muestran separados por líneas en blanco. Sirven para organizar el contenido en secciones. Algunos ejemplos son: los títulos (&lt;h1&gt;  a &lt;h1&lt;), párrafos ```(<p>)```, saltos de línea ```(<br>), separadores (<hr>), citas (<blockquote>), texto preformateado (<pre>) y divisiones ```(<div>)```.
+Los elementos de bloque son estructuras grandes que ocupan todo el ancho disponible y se muestran separados por líneas en blanco. Sirven para organizar el contenido en secciones. Algunos ejemplos son: los títulos (&lt;h1&gt;  a &lt;h1&gt;), párrafos ```(<p>)```, saltos de línea ```(<br>), separadores (<hr>), citas (<blockquote>), texto preformateado (<pre>) y divisiones ```(<div>)```.
 
 Los elementos de línea son partes más pequeñas que se colocan dentro de los bloques y no rompen la línea. Se usan para modificar o resaltar texto, como ponerlo en negrita, cursiva o incluir enlaces. Algunos ejemplos son: <em> (énfasis), ```<strong>``` (negrita), ```<span>, <a>, <cite> o <code>```
 
