@@ -16,9 +16,9 @@ Encabezados: (#, ##, ###…) para secciones.
 
 Estilos de letra:
 
-Itálica: *texto* o _texto_
+Cursiva: *texto* o _texto_(se puede utilizar un asterisco al principio y uno al final de la palabra o un guion bajo al principio y al final)
 
-Negrita: ```**texto**``` o ```__texto__```
+Negrita: **texto** o __texto__(se pueen utilizar dos astericos al principio y dos al final de la palabra o dos guiones bajos al principio y dos al final de la palabra)
 
 Enlaces: &lt;[texto](url "título opcional")&gt; 
 
@@ -27,7 +27,10 @@ Imágenes: ![alt](url)
 Tablas:
 
 |Jugador|Equipo|Nombre|
-|:--|:--:|--:|  izquierda, centro, derecha
+
+|:--|:--:|--:| 
+
+izquierda, centro, derecha
 
 HTML (1991):
 
