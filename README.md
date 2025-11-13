@@ -88,9 +88,7 @@ Las etiquetas deben anidarse correctamente, lo que significa que si una etiqueta
 
 Los atributos se escriben en la etiqueta de apertura y siguen el formato nombre="valor". Por ejemplo, en &lt;img src&gt;=&lt;imagen.jpg&gt;>, &lt;src&gt; es el atributo.
 
-Recomendación: aunque HTML no distingue entre mayúsculas y minúsculas, se recomienda escribir todo en minúsculas.
-
- Legibilidad y organización del código
+Legibilidad y organización del código
 
 La legibilidad del código significa que debe ser fácil de entender para cualquier persona que lo lea, no solo para quien lo escribió.
 
@@ -175,15 +173,15 @@ Ejemplos de elementos semánticos:
 
 &lt;header&gt; : Encabezado de una página o sección.
 
-```<footer>``` : Pie de página.
+&lt;footer&gt; : Pie de página.
 
-```<article>``` : Artículo o contenido independiente
+&lt;article>&gt; : Artículo o contenido independiente
 
-```<section>``` : Sección del contenido
+&lt;section&gt; : Sección del contenido
 
-```<nav>``` : Zona de navegación (menús o enlaces)
+&lt;nav>&gt; : Zona de navegación (menús o enlaces)
 
-<```figure>``` : Contiene imágenes, gráficos o ilustraciones
+&lt;figure&gt; : Contiene imágenes, gráficos o ilustraciones
 
 Los elementos semánticos son muy importantes porque ayudan a dar significado al contenido del código HTML.
 Las etiquetas como <span> (contenido en línea) y <div> (contenido en bloque) sirven para agrupar elementos, pero no tienen valor semántico, o sea, no explican qué tipo de contenido contienen
@@ -191,17 +189,17 @@ En cambio, el HTML semántico permite describir el contenido correctamente, ayud
 
 Ejemplos de elementos semánticos:
 
-```<header>``` : Encabezado de la página o sección
+&lt;header&gt; : Encabezado de la página o sección
 
-```<footer>``` : Pie de página.
+&lt;footer&gt; : Pie de página.
 
-```<article>``` : Artículo o bloque de contenido independiente
+&lt;article&gt; : Artículo o bloque de contenido independiente
 
-```<section>``` : Sección del documento.
+&lt;section&gt; : Sección del documento.
 
-```<nav>``` : Área de navegación
+&lt;nav&gt; : Área de navegación
 
-```<figure>``` : Imagen, gráfico o ilustración con su descripción
+&lt;figure&gt; : Imagen, gráfico o ilustración con su descripción
 
 La validación de HTML es el proceso de comprobar que el código cumple con los estándares del World Wide Web Consortium (W3C).
 Sirve para detectar y corregir errores en el código que pueden causar problemas al mostrar la página en distintos navegadores
@@ -213,28 +211,28 @@ O introduciendo la dirección (URL) de la página web
 Los formularios web se usan para interactuar con el usuario y permitir que este envíe información a la aplicación web.
 Esa información puede procesarse de distintas formas, dependiendo de lo que necesite la aplicación.
 Tipos de controles más comunes:
-Campos de texto ```(<input type="text">)```
-Campos de contraseña ```(<input type="password">)```
-Botones de opción o radio buttons``` (<input type="radio">)```
-Casillas de verificación o checkboxes ```(<input type="checkbox">)v
-Campos para subir archivos ```(<input type="file">)```
-Listas de selección ```(<select>)```
-Áreas de texto ```(<textarea>)```
-Botones ```(<button> o <input type="submit">)```
-```La etiqueta <form> se usa para crear formularios que permiten al usuario enviar datos a un servidor o ejecutar alguna acción dentro de una página web.```
+Campos de texto (&lt;input type="text"&gt;)
+Campos de contraseña ```(&lt;input type="password"&gt;)
+Botones de opción o radio buttons (&lt;input type="radio&gt;)
+Casillas de verificación o checkboxes ```(&lt;input type="checkbox&gt;)v
+Campos para subir archivos ```(&lt;input type="file"&gt;)
+Listas de selección ```(&lt;select&gt;)
+Áreas de texto ```(&lt;textarea&gt;)
+Botones ```(&lt;button o <input type="&lt;submit&gt;")&gt;
+&lt;La etiqueta <form> se usa para crear formularios que permiten al usuario enviar datos a un servidor o ejecutar alguna acción dentro de una página web.&gt;
 
-```Atributos comunes del <form>:```
+&lt;Atributos comunes del <form>:&gt;
 
 action: Define la URL a la que se enviarán los datos del formulario para su procesamiento. Es el destino del formulario.
 method: Indica el método de envío de los datos (por ejemplo, GET o POST).
 enctype: Determina cómo se codifican los datos antes de enviarse al servidor. Se usa principalmente cuando se suben archivos.
-Las etiquetas ```<select> y <option>``` se usan para crear menús desplegables en los formularios.
+Las etiquetas &lt;select y option&gt; se usan para crear menús desplegables en los formularios.
 Permiten que el usuario elija una opción dentro de una lista predefinida de valores.
 
 Atributos comunes:
 
 name: Define el nombre del control que se enviará al servidor. Este nombre actúa como clave cuando se mandan los datos del formulario.
-id: Asigna un identificador único al elemento. Sirve para asociarlo con una etiqueta ```<label>.```
+id: Asigna un identificador único al elemento. Sirve para asociarlo con una etiqueta &lt;label&gt;
 size: Determina cuántas opciones serán visibles al mismo tiempo en el menú sin necesidad de desplazarse.
 multiple: Permite seleccionar varias opciones a la vez. Si se usa, el menú se convierte en una lista múltiple.
 value: Indica el valor que se enviará al servidor cuando se seleccione esa opción.
@@ -245,16 +243,16 @@ Las tablas sirven para mostrar información tabulada, es decir, organizada en fi
 
 Antes de los CSS, las tablas se usaban también para maquetar páginas web (por ejemplo, dividir la página en secciones).
 
-Hoy en día, no se recomienda usar tablas para maquetar, ya que eso se hace con ```<div>``` y CSS.
+Hoy en día, no se recomienda usar tablas para maquetar, ya que eso se hace con &lt;div&gt; y CSS.
 
 El uso adecuado de las tablas es mostrar datos estructurados.
 
 Etiquetas principales de tablas
 TAG	Descripción	Atributos comunes	
-```<table>```	Define el inicio de una tabla en HTML.	border: grosor del borde.
-```<thead>```	Agrupa el encabezado de la tabla normalmente contiene ```<th>```.	No tiene atributos específicos
-```<tbody>```	Agrupa el cuerpo de la tabla. Separa el contenido del encabezado y pie.	No tiene atributos específicos
-```<tfoot>```	Agrupa el pie de la tabla, usado para resúmenes o información final.	No tiene atributos específicos
+&lt;table&gt;	Define el inicio de una tabla en HTML.	border: grosor del borde.
+&lt;thead>&gt;	Agrupa el encabezado de la tabla normalmente contiene &lt;th&gt;.	No tiene atributos específicos
+&lt;tbody>&gt;	Agrupa el cuerpo de la tabla. Separa el contenido del encabezado y pie.	No tiene atributos específicos
+&lt;tfoot&gt;	Agrupa el pie de la tabla, usado para resúmenes o información final.	No tiene atributos específicos
 
 Apuntes: Comandos de Git y GitHub en Visual Studio Code
 
@@ -265,12 +263,12 @@ Descarga todo el contenido (archivos, historial de versiones, ramas, etc.).
 
 Sintaxis:
 
-git clone https://github.com/usuario/nombre-repositorio.git
+git clone codigo del repositorio 
 
 
-Ejemplo:
+Ejemplo: 
 
-git clone https://github.com/miusuario/proyecto-ejemplo.git
+git clone https://github.com/gabrielrodrigueezz/Mi-documentaci-n-apuntes.git
 
 
 Se crea una carpeta con el nombre del repositorio en tu PC.
@@ -295,7 +293,6 @@ Es el paso previo antes de confirmar los cambios con un commit.
 Sintaxis:
 
 git add .
-
 
 El punto (.) significa “agregar todos los cambios”.
 
@@ -339,12 +336,12 @@ Después de hacer esto, los cambios se reflejan en tu repositorio de GitHub.
 
 Flujo de trabajo básico
 
-Inicia un repositorio → git init
+Inicia un repositorio : git init
 
-Agrega los cambios → git add .
+Agrega los cambios : git add .
 
-Guarda los cambios → git commit -m "mensaje"
+Guarda los cambios : git commit -m "mensaje"
 
-Sube los cambios a GitHub → git push origin main
+Sube los cambios a GitHub : git push origin main
 
 (Si el proyecto viene de GitHub, primero haces git clone antes de trabajar.)
