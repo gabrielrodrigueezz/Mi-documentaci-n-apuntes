@@ -20,10 +20,6 @@ Cursiva: *texto* o _texto_(se puede utilizar un asterisco al principio y uno al 
 
 Negrita: **texto** o __texto__(se pueen utilizar dos astericos al principio y dos al final de la palabra o dos guiones bajos al principio y dos al final de la palabra)
 
-Enlaces: &lt;[texto](url "título opcional")&gt; 
-
-Imágenes: ![alt](url)
-
 Tablas:
 
 |Jugador|Equipo|Nombre|
