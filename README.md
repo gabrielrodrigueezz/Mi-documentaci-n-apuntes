@@ -37,10 +37,10 @@ Crea enlaces entre documentos (hipertexto).
 
 No permite interactuar con los contenidos, solo organiza.
 
-Las etiquetas van así: ```<etiqueta>``` y algunas necesitan cierre ```</etiqueta>```.
+Las etiquetas van así: &lt;etiqueta&gt; y algunas necesitan cierre &lt;/etiqueta&gt;.
 
 Atributos: van dentro de la etiqueta de apertura:
-<```p class="editor-note">Mi gato es muy gruñón ``````</p>```
+&lt;p&gt; class="editor-note" Mi gato es muy gruñón &lt;/p&gt;
 
 Introducción a HTML
 
@@ -48,7 +48,7 @@ HTML significa HyperText Markup Language.
 
 HyperText: texto que enlaza con otros textos o archivos. Es la base de la web, conectando páginas y recursos.
 
-Markup: significa etiqueta. Todas las páginas web están hechas con etiquetas. Ejemplo: <p>HOLA</p> identifica un párrafo.
+Markup: significa etiqueta. Todas las páginas web están hechas con etiquetas. Ejemplo: &lt;p&gt;HOLA/&lt;p;&gt; identifica un párrafo.
 
 Language: significa lenguaje, porque HTML tiene sus normas y estructura para organizar contenido web.
 
@@ -65,20 +65,20 @@ El body contiene lo que aparece en la página, como imágenes o texto.
 
 En resumen, la imagen enseña cómo se organiza una página HTML y muestra un ejemplo básico de código para entender mejor cómo funciona.
 
-La declaración de caracteres ```(<meta charset="utf-8">)``` para que se vean bien los textos.
+La declaración de caracteres (&lt;meta charset="utf-8"&gt;) para que se vean bien los textos.
 
-Una descripción de la página ```(<meta name="description">)```, que aparece en los resultados de búsqueda.
+Una descripción de la página (&lt;meta name="description&gt;), que aparece en los resultados de búsqueda.
 
 Las palabras clave o keywords, que ayudan a los buscadores a entender de qué trata la página.
 
-El título de la página ```(<title>)```, que se muestra en la pestaña del navegador.
+El título de la página (&lt;title&gt;), que se muestra en la pestaña del navegador.
 
 El ícono o favicon, que es la pequeña imagen que aparece junto al título.
 
 Y los enlaces a otros archivos, como hojas de estilo CSS o scripts de JavaScript.
 Los elementos de bloque son estructuras grandes que ocupan todo el ancho disponible y se muestran separados por líneas en blanco. Sirven para organizar el contenido en secciones. Algunos ejemplos son: los títulos (&lt;h1&gt;  a &lt;h1&gt;), párrafos (&lt;p&gt;), saltos de línea (&lt;br&gt;), separadores (&lt;hr&gt;), citas (&lt;blockquote&gt;), texto preformateado (&lt;pre&gt;) y divisiones (&lt;div&gt;).
 
-Los elementos de línea son partes más pequeñas que se colocan dentro de los bloques y no rompen la línea. Se usan para modificar o resaltar texto, como ponerlo en negrita, cursiva o incluir enlaces. Algunos ejemplos son: <em> (énfasis), <&lt;strong&gt;> (negrita), &lt;span&gt;, &lt;a&gt;, &lt;cite&gt; o &lt;code&gt;
+Los elementos de línea son partes más pequeñas que se colocan dentro de los bloques y no rompen la línea. Se usan para modificar o resaltar texto, como ponerlo en negrita, cursiva o incluir enlaces. Algunos ejemplos son: &lt;em&gt; (énfasis), &lt;strong&gt; (negrita), &lt;span&gt;, &lt;a&gt;, &lt;cite&gt; o &lt;code&gt;
 
 Las etiquetas HTML normalmente vienen en pares, con una de apertura y otra de cierre, como &lt;p&gt; y &lt;/p&gt;
 
@@ -86,7 +86,7 @@ Algunas etiquetas son vacías, es decir, no tienen cierre, como &lt;img&gt;, &lt
 
 Las etiquetas deben anidarse correctamente, lo que significa que si una etiqueta se abre dentro de otra, debe cerrarse antes de cerrar la primera
 
-Los atributos se escriben en la etiqueta de apertura y siguen el formato nombre="valor". Por ejemplo, en &lt;img src&gt;=&lt;imagen.jpg&gt;>, &lt;src&gt; es el atributo.
+Los atributos se escriben en la etiqueta de apertura y siguen el formato nombre="valor". Por ejemplo, en &lt;img src= imagen.jpg&gt;, &lt;src&gt; es el atributo.
 
 Legibilidad y organización del código
 
@@ -128,7 +128,7 @@ Ejemplo:
 Aquí, images/logo.png significa que el archivo de imagen está dentro de la carpeta images, que está en el mismo nivel que el archivo index.html.
 sin espacios 
 alt es el texto q saldria sino carga la imagen
-Los enlaces en HTML se crean con la etiqueta &lt;a>.&gt;
+Los enlaces en HTML se crean con la etiqueta &lt;a&gt;.
 
 Gracias a ellos, podemos saltar de un documento a otro, lo que hace posible la navegación en la web.
 Para decir a dónde lleva el enlace, usamos el atributo href dentro de la etiqueta &lt;a&gt;
@@ -144,7 +144,7 @@ Se usan para dirigir a sitios fuera de nuestra página web.
 Enlaces a páginas locales:
 Sirven para conectar con otras partes o archivos dentro del mismo sitio web
 
-&lt;a href="index.html"&lt;Inicio&gt;/a&gt;
+&lt;a href="index.html&gt; &lt;"Inicio"&gt;&lt;/a&gt;
 
 A veces, las páginas HTML son muy largas y queremos movernos dentro de la misma página sin recargarla.
 
@@ -154,12 +154,12 @@ Las anclas se crean con el atributo id en una etiqueta.
 
 Ejemplo para crear una ancla:
 
-&lt;h2 id="seccion1">Sección 1 /h2&gt;
+&lt;h2&gt; id="seccion1">Sección 1 &lt;/h2&gt;
 Luego, para crear un enlace hacia esa ancla, usamos la etiqueta &lt;a&gt; con href seguido de # y el nombre del id.
 
 Ejemplo de enlace interno:
 
-&lt;a href= #seccion1" title="Sección 1 Ir a la sección 1 /a&gt;
+&lt;a href= #seccion1" title="Sección 1 Ir a la sección 1 &lt;/a&gt;
 
 También se puede enlazar una ancla que esté en otra página, escribiendo el nombre del archivo y luego # más el id.
 
@@ -175,16 +175,16 @@ Ejemplos de elementos semánticos:
 
 &lt;footer&gt; : Pie de página.
 
-&lt;article>&gt; : Artículo o contenido independiente
+&lt;article&gt; : Artículo o contenido independiente
 
 &lt;section&gt; : Sección del contenido
 
-&lt;nav>&gt; : Zona de navegación (menús o enlaces)
+&lt;nav&gt; : Zona de navegación (menús o enlaces)
 
 &lt;figure&gt; : Contiene imágenes, gráficos o ilustraciones
 
 Los elementos semánticos son muy importantes porque ayudan a dar significado al contenido del código HTML.
-Las etiquetas como <span> (contenido en línea) y <div> (contenido en bloque) sirven para agrupar elementos, pero no tienen valor semántico, o sea, no explican qué tipo de contenido contienen
+Las etiquetas como &lt;span&gt; (contenido en línea) y &lt;div&gt; (contenido en bloque) sirven para agrupar elementos, pero no tienen valor semántico, o sea, no explican qué tipo de contenido contienen
 En cambio, el HTML semántico permite describir el contenido correctamente, ayudando a los navegadores y a los desarrolladores a entender mejor la estructura de la página.
 
 Ejemplos de elementos semánticos:
@@ -212,21 +212,21 @@ Los formularios web se usan para interactuar con el usuario y permitir que este 
 Esa información puede procesarse de distintas formas, dependiendo de lo que necesite la aplicación.
 Tipos de controles más comunes:
 Campos de texto (&lt;input type="text"&gt;)
-Campos de contraseña ```(&lt;input type="password"&gt;)
+Campos de contraseña (&lt;input type="password"&gt;)
 Botones de opción o radio buttons (&lt;input type="radio&gt;)
-Casillas de verificación o checkboxes ```(&lt;input type="checkbox&gt;)v
-Campos para subir archivos ```(&lt;input type="file"&gt;)
-Listas de selección ```(&lt;select&gt;)
-Áreas de texto ```(&lt;textarea&gt;)
-Botones ```(&lt;button o <input type="&lt;submit&gt;")&gt;
-&lt;La etiqueta <form> se usa para crear formularios que permiten al usuario enviar datos a un servidor o ejecutar alguna acción dentro de una página web.&gt;
+Casillas de verificación o checkboxes (&lt;input type="checkbox&gt;)
+Campos para subir archivos (&lt;input type="file"&gt;)
+Listas de selección (&lt;select&gt;)
+Áreas de texto (&lt;textarea&gt;)
+Botones (&lt;button&gt; o &lt;input type= "submit"&gt;)
+La etiqueta form se usa para crear formularios que permiten al usuario enviar datos a un servidor o ejecutar alguna acción dentro de una página web.
 
-&lt;Atributos comunes del <form>:&gt;
+Atributos comunes del &lt;form&gt;
 
 action: Define la URL a la que se enviarán los datos del formulario para su procesamiento. Es el destino del formulario.
 method: Indica el método de envío de los datos (por ejemplo, GET o POST).
 enctype: Determina cómo se codifican los datos antes de enviarse al servidor. Se usa principalmente cuando se suben archivos.
-Las etiquetas &lt;select y option&gt; se usan para crear menús desplegables en los formularios.
+Las etiquetas &lt;select&gt; y &lt;option&gt; se usan para crear menús desplegables en los formularios.
 Permiten que el usuario elija una opción dentro de una lista predefinida de valores.
 
 Atributos comunes:
@@ -250,8 +250,8 @@ El uso adecuado de las tablas es mostrar datos estructurados.
 Etiquetas principales de tablas
 TAG	Descripción	Atributos comunes	
 &lt;table&gt;	Define el inicio de una tabla en HTML.	border: grosor del borde.
-&lt;thead>&gt;	Agrupa el encabezado de la tabla normalmente contiene &lt;th&gt;.	No tiene atributos específicos
-&lt;tbody>&gt;	Agrupa el cuerpo de la tabla. Separa el contenido del encabezado y pie.	No tiene atributos específicos
+&lt;thead&gt;	Agrupa el encabezado de la tabla normalmente contiene &lt;th&gt;.	No tiene atributos específicos
+&lt;tbody&gt;	Agrupa el cuerpo de la tabla. Separa el contenido del encabezado y pie.	No tiene atributos específicos
 &lt;tfoot&gt;	Agrupa el pie de la tabla, usado para resúmenes o información final.	No tiene atributos específicos
 
 Apuntes: Comandos de Git y GitHub en Visual Studio Code
