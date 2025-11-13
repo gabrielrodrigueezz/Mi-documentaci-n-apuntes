@@ -76,17 +76,17 @@ El título de la página ```(<title>)```, que se muestra en la pestaña del nave
 El ícono o favicon, que es la pequeña imagen que aparece junto al título.
 
 Y los enlaces a otros archivos, como hojas de estilo CSS o scripts de JavaScript.
-Los elementos de bloque son estructuras grandes que ocupan todo el ancho disponible y se muestran separados por líneas en blanco. Sirven para organizar el contenido en secciones. Algunos ejemplos son: los títulos (&lt;h1&gt;  a &lt;h1&gt;), párrafos ```(<p>)```, saltos de línea ```(<br>), separadores (<hr>), citas (<blockquote>), texto preformateado (<pre>) y divisiones ```(<div>)```.
+Los elementos de bloque son estructuras grandes que ocupan todo el ancho disponible y se muestran separados por líneas en blanco. Sirven para organizar el contenido en secciones. Algunos ejemplos son: los títulos (&lt;h1&gt;  a &lt;h1&gt;), párrafos (&lt;p&gt;), saltos de línea (&lt;br&gt;), separadores (&lt;hr&gt;), citas (&lt;blockquote&gt;), texto preformateado (<pre>) y divisiones (&lt;div&gt;>).
 
-Los elementos de línea son partes más pequeñas que se colocan dentro de los bloques y no rompen la línea. Se usan para modificar o resaltar texto, como ponerlo en negrita, cursiva o incluir enlaces. Algunos ejemplos son: <em> (énfasis), ```<strong>``` (negrita), ```<span>, <a>, <cite> o <code>```
+Los elementos de línea son partes más pequeñas que se colocan dentro de los bloques y no rompen la línea. Se usan para modificar o resaltar texto, como ponerlo en negrita, cursiva o incluir enlaces. Algunos ejemplos son: <em> (énfasis), <&lt;strong&gt;> (negrita), &lt;span&gt;, &lt;a&gt;, &lt;cite&gt; o &lt;code&gt;
 
-Las etiquetas HTML normalmente vienen en pares, con una de apertura y otra de cierre, como ```<p> y </p>```
+Las etiquetas HTML normalmente vienen en pares, con una de apertura y otra de cierre, como &lt;p&gt; y &lt;/p&gt;
 
-Algunas etiquetas son vacías, es decir, no tienen cierre, como ```<img>, <br> o <input>```
+Algunas etiquetas son vacías, es decir, no tienen cierre, como &lt;img&gt;, &lt;br&gt; o &lt;input&gt;
 
 Las etiquetas deben anidarse correctamente, lo que significa que si una etiqueta se abre dentro de otra, debe cerrarse antes de cerrar la primera
 
-Los atributos se escriben en la etiqueta de apertura y siguen el formato nombre="valor". Por ejemplo, en ```<img src```="imagen.jpg">, “src” es el atributo.
+Los atributos se escriben en la etiqueta de apertura y siguen el formato nombre="valor". Por ejemplo, en &lt;img src&gt;=&lt;imagen.jpg&gt;>, &lt;src&gt; es el atributo.
 
 Recomendación: aunque HTML no distingue entre mayúsculas y minúsculas, se recomienda escribir todo en minúsculas.
 
@@ -115,7 +115,7 @@ Se usa cuando el archivo está en otro servidor o en una ubicación externa
 
 Ejemplo:
 
-```<img src="https://www.example.com/images/logo.png" alt="Logo de Example">```
+&lt;img src="https://www.example.com/images/logo.png" alt="Logo de Example&gt;
 
 Ruta Relativa:
 
@@ -125,16 +125,16 @@ Facilita el mantenimiento cuando se mueven archivos o carpetas
 
 Ejemplo:
 
-```<img src="images/logo.png" alt="Logo de Mi Sitio">```
+&lt;img src="images/logo.png" alt="Logo de Mi Sitio"&gt;
 
 Aquí, images/logo.png significa que el archivo de imagen está dentro de la carpeta images, que está en el mismo nivel que el archivo index.html.
 sin espacios 
 alt es el texto q saldria sino carga la imagen
-Los enlaces en HTML se crean con la etiqueta ```<a>.```
+Los enlaces en HTML se crean con la etiqueta &lt;a>.&gt;
 
 Gracias a ellos, podemos saltar de un documento a otro, lo que hace posible la navegación en la web.
-Para decir a dónde lleva el enlace, usamos el atributo href dentro de la etiqueta ```<a>.```
-La etiqueta ```<a>``` es de línea, lo que significa que puede ir dentro de un texto.
+Para decir a dónde lleva el enlace, usamos el atributo href dentro de la etiqueta &lt;a&gt;
+La etiqueta &lt;a&gt; es de línea, lo que significa que puede ir dentro de un texto.
 
 Ejemplo básico:
 
@@ -146,7 +146,7 @@ Se usan para dirigir a sitios fuera de nuestra página web.
 Enlaces a páginas locales:
 Sirven para conectar con otras partes o archivos dentro del mismo sitio web
 
-```<a href="index.html">Inicio</a>```
+&lt;a href="index.html"&lt;Inicio&gt;/a&gt;
 
 A veces, las páginas HTML son muy largas y queremos movernos dentro de la misma página sin recargarla.
 
@@ -156,24 +156,24 @@ Las anclas se crean con el atributo id en una etiqueta.
 
 Ejemplo para crear una ancla:
 
-```<h2 id="seccion1">Sección 1</h2>```
-Luego, para crear un enlace hacia esa ancla, usamos la etiqueta ```<a>``` con href seguido de # y el nombre del id.
+&lt;h2 id="seccion1">Sección 1 /h2&gt;
+Luego, para crear un enlace hacia esa ancla, usamos la etiqueta &lt;a&gt; con href seguido de # y el nombre del id.
 
 Ejemplo de enlace interno:
 
-```<a href="#seccion1" title="Sección 1">Ir a la sección 1</a>```
+&lt;a href= #seccion1" title="Sección 1 Ir a la sección 1 /a&gt;
 
 También se puede enlazar una ancla que esté en otra página, escribiendo el nombre del archivo y luego # más el id.
 
 os elementos semánticos son muy importantes porque dan significado al contenido del código HTML.
 
-Las etiquetas como ```<span> y <div>``` se usan para agrupar contenido, pero no tienen valor semántico, es decir, no indican qué tipo de información contienen, solo sirven para organizar.
+Las etiquetas como &lt;span&gt; y &lt;div&gt; se usan para agrupar contenido, pero no tienen valor semántico, es decir, no indican qué tipo de información contienen, solo sirven para organizar.
 
 En cambio, el HTML semántico describe mejor el contenido, haciendo el código más claro y fácil de entender tanto para personas como para los buscadores.
 
 Ejemplos de elementos semánticos:
 
-```<header>``` : Encabezado de una página o sección.
+&lt;header&gt; : Encabezado de una página o sección.
 
 ```<footer>``` : Pie de página.
 
@@ -255,3 +255,96 @@ TAG	Descripción	Atributos comunes
 ```<thead>```	Agrupa el encabezado de la tabla normalmente contiene ```<th>```.	No tiene atributos específicos
 ```<tbody>```	Agrupa el cuerpo de la tabla. Separa el contenido del encabezado y pie.	No tiene atributos específicos
 ```<tfoot>```	Agrupa el pie de la tabla, usado para resúmenes o información final.	No tiene atributos específicos
+
+Apuntes: Comandos de Git y GitHub en Visual Studio Code
+
+1- git clone
+
+Este comando sirve para copiar un repositorio que ya existe en GitHub a tu ordenador.
+Descarga todo el contenido (archivos, historial de versiones, ramas, etc.).
+
+Sintaxis:
+
+git clone https://github.com/usuario/nombre-repositorio.git
+
+
+Ejemplo:
+
+git clone https://github.com/miusuario/proyecto-ejemplo.git
+
+
+Se crea una carpeta con el nombre del repositorio en tu PC.
+
+2- git init
+
+Este comando crea un nuevo repositorio Git local dentro de la carpeta de tu proyecto.
+Se usa cuando quieres comenzar a usar Git en un proyecto nuevo.
+
+Sintaxis:
+
+git init
+
+
+Después de ejecutarlo, se crea una carpeta oculta llamada .git, donde se guarda toda la información del control de versiones.
+
+3- git add .
+
+Este comando agrega todos los archivos modificados o nuevos al área de preparación (staging area).
+Es el paso previo antes de confirmar los cambios con un commit.
+
+Sintaxis:
+
+git add .
+
+
+El punto (.) significa “agregar todos los cambios”.
+
+También se puede agregar un archivo específico:
+
+git add nombre-del-archivo.html
+
+4- git commit -m "mensaje"
+
+Este comando guarda los cambios agregados con un mensaje descriptivo.
+Cada commit es una versión del proyecto con su descripción.
+
+Sintaxis:
+
+git commit -m "Descripción de los cambios"
+
+
+Ejemplo:
+
+git commit -m "Agregué el archivo index.html y estilos CSS"
+
+
+Es importante usar mensajes claros para saber qué se cambió en cada commit.
+
+5- git push origin main
+
+Este comando envía los commits del repositorio local al repositorio remoto (GitHub).
+“origin” es el nombre del repositorio remoto, y “main” es la rama principal.
+
+Sintaxis:
+
+git push origin main
+
+
+Ejemplo:
+
+git push origin main
+
+
+Después de hacer esto, los cambios se reflejan en tu repositorio de GitHub.
+
+Flujo de trabajo básico
+
+Inicia un repositorio → git init
+
+Agrega los cambios → git add .
+
+Guarda los cambios → git commit -m "mensaje"
+
+Sube los cambios a GitHub → git push origin main
+
+(Si el proyecto viene de GitHub, primero haces git clone antes de trabajar.)
