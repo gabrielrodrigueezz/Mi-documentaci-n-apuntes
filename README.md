@@ -268,11 +268,9 @@ Sintaxis:
 
 git clone codigo del repositorio 
 
-
 Ejemplo: 
 
 git clone https://github.com/gabrielrodrigueezz/Mi-documentaci-n-apuntes.git
-
 
 Se crea una carpeta con el nombre del repositorio en tu PC.
 
@@ -312,11 +310,9 @@ Sintaxis:
 
 git commit -m "Descripción de los cambios"
 
-
 Ejemplo:
 
 git commit -m "Agregué el archivo index.html y estilos CSS"
-
 
 Es importante usar mensajes claros para saber qué se cambió en cada commit.
 
@@ -329,11 +325,9 @@ Sintaxis:
 
 git push origin main
 
-
 Ejemplo:
 
 git push origin main
-
 
 Después de hacer esto, los cambios se reflejan en tu repositorio de GitHub.
 
@@ -346,5 +340,3 @@ Agrega los cambios : git add .
 Guarda los cambios : git commit -m "mensaje"
 
 Sube los cambios a GitHub : git push origin main
-
-(Si el proyecto viene de GitHub, primero haces git clone antes de trabajar.)
